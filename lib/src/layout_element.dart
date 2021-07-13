@@ -106,7 +106,9 @@ class TableLayoutElement extends LayoutElement {
           columni++;
         }
         if (child is TableCellElement) {
-          final pxSize = double.tryParse(child.attributes["width"] ?? "50");
+          String width = child.attributes["width"] ?? "";
+          width.replaceAll("px", "");
+          final pxSize = double.tryParse(width) ?? 120;
           cells.add(GridPlacement(
             child: Container(
               width: pxSize,

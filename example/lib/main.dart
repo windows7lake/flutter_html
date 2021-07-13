@@ -234,6 +234,114 @@ const htmlData = r"""
       </math>
       <h3>Tex Support with the custom tex tag:</h3>
       <tex>i\hbar\frac{\partial}{\partial t}\Psi(\vec x,t) = -\frac{\hbar}{2m}\nabla^2\Psi(\vec x,t)+ V(\vec x)\Psi(\vec x,t)</tex>
+      
+      <table style="border-collapse: collapse;" border="1">
+<tbody>
+<tr style="height: 27px; width: 300px;">
+<td style="width: 11.807%; height: 27px;">
+<p><b>區域</b></p>
+</td>
+<td style="width: 11.0718%; height: 27px;">
+<p><b>收納設計</b></p>
+</td>
+<td style="width: 31.0363%; height: 27px;">
+<p><b>位置</b></p>
+</td>
+<td style="width: 45.9829%; height: 27px;">
+<p><b>尺寸</b></p>
+</td>
+</tr>
+<tr style="height: 27px;">
+<td style="width: 11.807%; height: 27px;">
+<p><span style="font-weight: 400;">被褥區</span></p>
+</td>
+<td style="width: 11.0718%; height: 27px;">
+<p><span style="font-weight: 400;">層板式</span></p>
+</td>
+<td style="width: 31.0363%; height: 27px;">
+<p><span style="font-weight: 400;">不常用物品，可放於最上層或底層</span></p>
+</td>
+<td style="width: 45.9829%; height: 27px;">
+<p><span style="font-weight: 400;">高度40公分、寬度90~120公分最佳。</span></p>
+</td>
+</tr>
+<tr style="height: 55px;">
+<td style="width: 11.807%; height: 55px;">
+<p><span style="font-weight: 400;">上衣區</span></p>
+</td>
+<td style="width: 11.0718%; height: 55px;">
+<p><span style="font-weight: 400;">吊掛式</span></p>
+</td>
+<td style="width: 31.0363%; height: 55px;">
+<p><span style="font-weight: 400;">吊桿高度以目視高度為主</span></p>
+<p><span style="font-weight: 400;">(身高x0.9)</span></p>
+</td>
+<td style="width: 45.9829%; height: 55px;">
+<p><span style="font-weight: 400;">依身高不同調整高度，櫃長一般以100~120公分最佳。</span></p>
+</td>
+</tr>
+<tr style="height: 55px;">
+<td style="width: 11.807%; height: 55px;">
+<p><span style="font-weight: 400;">內衣褲襪子</span></p>
+</td>
+<td style="width: 11.0718%; height: 55px;">
+<p><span style="font-weight: 400;">抽屜式</span></p>
+</td>
+<td style="width: 31.0363%; height: 55px;">
+<p><span style="font-weight: 400;">不高於目視高度為主</span></p>
+<p><span style="font-weight: 400;">(身高x0.9)</span></p>
+</td>
+<td style="width: 45.9829%; height: 55px;">
+<p><span style="font-weight: 400;">抽屜高度16~20公分、寬度40~80公分最佳。</span></p>
+</td>
+</tr>
+<tr style="height: 55px;">
+<td style="width: 11.807%; height: 55px;">
+<p><span style="font-weight: 400;">褲裙區</span></p>
+</td>
+<td style="width: 11.0718%; height: 55px;">
+<p><span style="font-weight: 400;">吊掛式</span></p>
+</td>
+<td style="width: 31.0363%; height: 55px;">
+<p><span style="font-weight: 400;">置於手放下時到指尖的高度</span></p>
+<p><span style="font-weight: 400;">(身高x0.4)</span></p>
+</td>
+<td style="width: 45.9829%; height: 55px;">
+<p><span style="font-weight: 400;">櫃內高度80~100公分，掛桿至地板應大於60公分。</span></p>
+</td>
+</tr>
+<tr style="height: 55px;">
+<td style="width: 11.807%; height: 55px;">
+<p><span style="font-weight: 400;">大衣外套</span></p>
+</td>
+<td style="width: 11.0718%; height: 55px;">
+<p><span style="font-weight: 400;">吊掛式</span></p>
+</td>
+<td style="width: 31.0363%; height: 55px;">
+<p><span style="font-weight: 400;">伸手可及的位置</span></p>
+<p><span style="font-weight: 400;">(身高x1.2)</span></p>
+</td>
+<td style="width: 45.9829%; height: 55px;">
+<p><span style="font-weight: 400;">櫃內高度140~170公分。</span></p>
+</td>
+</tr>
+<tr style="height: 55px;">
+<td style="width: 11.807%; height: 55px;">
+<p><span style="font-weight: 400;">綜合疊放</span></p>
+</td>
+<td style="width: 300px; height: 55px;">
+<p><span style="font-weight: 400;">層板/格櫃</span></p>
+</td>
+<td style="width: 31.0363%; height: 55px;">
+<p><span style="font-weight: 400;">不高於目視高度為主</span></p>
+<p><span style="font-weight: 400;">(身高x0.9)</span></p>
+</td>
+<td style="width: 45.9829%; height: 55px;">
+<p><span style="font-weight: 400;">寬、長以30~50公分為佳。</span></p>
+</td>
+</tr>
+</tbody>
+</table>
 """;
 
 class _MyHomePageState extends State<MyHomePage> {
